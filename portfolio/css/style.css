@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#portfolio {
+    background-color: #CCCCCC;
+}
+.main{
+    height: 100%;
+    background-image: url(/tutorial/images/achtergrond3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:1000px){
+    #container {
+        height: 700px;
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+.header {
+    margin-top: 0px;
+    width: 1000px;
+    margin: 0 auto;
+    }
+}
+.logo {
+    float: left;
+    margin-top: 10px;
+    height: 10%;
+    width: 10%;
+}
+
+.logo:hover {
+    -webkit-animation-name: tryout;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: tryout;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    animation-name: tryout;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+nav {
+    float: right;
+    margin-top: 26px;
+}
+
+.navbar {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
+    text-shadow: 1px 1px #005;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+span {
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding-top: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    margin-top: -60px;
+}
+
+/* HEADER SECTION */
+
+
+#head {
+    width: 100%;
+    height: 350px;
+    background-image: url(/tutorial/images/achtergrond.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.port {
+    padding-top: 75px;
+}
+
+.portfolio {
+    width: 300px;
+    height: 250px;
+}
+
+.padding {
+    padding-left: 40px;
+}
+
+.one {
+    margin-top: 46px;
+}
+
+.two {
+    margin-top: 46px;
+}
+
+.three {
+    margin-top: 46px;
+}
+
+.four {
+    margin-top: 46px;
+}
+
+.five {
+    margin-top: 46px;
+}
+
+.six {
+    margin-top: 46px;
+}
+
+/*TABLE*/
+table {
+    border-collapse: collapse;
+    margin-left: 350px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+th, p.name {
+    color: #1e425d;
+    font-size: 18px;
+}
+tr:hover{
+    background-color: #008cba;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even):hover {
+    background-color: #2a5d84;
+}
+
+/* FOOTER SECTION*/
+.footer_portfolio{
+    width: 100%;
+    height: 450px;
+    background-color: #183951;
+    margin-top: 500px;
+}
+
+.footer_index {
+    width: 100%;
+    height: 450px;
+    background-color: #183951;
+}
+
+.footer_testimonial {
+    width: 100%;
+    height: 450px;
+    background-color: #183951;
+    margin-top: 300px;
+}
+
+#foot{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+div.social {
+    float: left;
+    margin-top: 20px;
+
+}
+
+a.social {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.youtube img {
+    height: 100%;
+    transition: none;
+}
+
+.medialink:hover {
+    opacity: 0.5;
+}
+
+div.contact {
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+label {
+    color: #ffffff;
+}
+
+input.text {
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+}
+
+textarea.message {
+    height: 100px;
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+}
+
+textarea{
+    resize: none;
+}
+
+input.submit {
+    width: 60px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #183951;
+    border: none;
+    border-radius: 3px;
+}
+
+input.submit:hover {
+    width: 60px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #183951;
+    border: none;
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+.copyright {
+    float: left;
+    color: white;
+    margin-top: 420px;
+    font-size: 10px;
+}
+
+.easter {
+    float: right;
+}
+#secret {
+    height: 1%;
+    width: 1%;
+    margin-bottom: 0px;
+}
+
+@keyframes tryout {
+    from {transform: rotatey(360deg);}
+    to {transform: rotatez(0deg);}
+}
+
